@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    margin: 50px auto 0px;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    color: #dea057;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #dea057;
+    font-weight:bold;
+    margin-bottom: 2rem;
+
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #ce9461;
+}
+
+a {
+    color: #dea057;
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    background-color: #fcffe7;
+    border-style: dotted none none none;
+    border-color: grey;
+    width: 50px;
+    border-width: thick;
+    margin: 60px auto;
+}
+
+.top-container {
+    background-color: #fcffe7;
+    padding-top: 2%;
+}
+
+.middle-container {
+    margin-top: 0px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 17%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 17%;
+}
+
+.skill-row1,
+.skill-row2 {
+    width: 50%;
+    margin: 10px auto 100px;
+    text-align: left;
+    overflow: auto;
+}
+
+.skill-row2 {
+    margin-bottom: 0px;
+}
+
+.comp-gif {
+    width: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gym-gif {
+    width: 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    float: right;
+    margin-right: 30px;
+}
+
+.bottom-container {
+    background-color: #e0d8b0;
+    margin-bottom: 0;
+    margin-top: 100px;
+    padding: 50px 30px 10px;
+}
+
+.contact-me {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    padding: 20px;
+}
+
+.profile {
+    width: 50%;
+    margin: 50px auto 50px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
