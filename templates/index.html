@@ -23,12 +23,14 @@
       </h2>
       <img class="bottom-cloud" src="{{url_for('static', filename='images/cloud.png')}}" alt="cloud" />
       <img class="mountain" src="{{url_for('static', filename='images/mountain.png')}}" alt="cloud" />
-    </div>
+    </div>  
+    <hr />
 
+    
     <div class="middle-container">
       <div class="profile"> 
         <img class="profile-img" src="{{url_for('static', filename='images/profile.jpg')}}" alt="pfp" />
-        <h2></h2>
+
         <p><i>
           CS'28 undergrad who codes, lifts, learns languages (programming and spoken), and tackles life one challenge at a time—always curious, never idle.
         </i></p>
@@ -38,8 +40,8 @@
       <div class="projects">
         <h2>Projects</h2>
         <div class="container text-center">
-          <div class="row">
-            <div class="col">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-4">
               <div class="card" style="width: 18rem;">
                 <img src="{{url_for('static', filename='images/recipify_img.png')}}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -51,7 +53,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4">
               <div class="card" style="width: 18rem;">
                 <img src="{{url_for('static', filename='images/mediq_img.png')}}" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -63,7 +65,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col-12 col-md-4">
               <div class="card" style="width: 18rem;">
                 <img src="{{url_for('static', filename='images/gitspy_img.png')}}" class="card-img-top" alt="...">
                 <div class="card-body">
